@@ -1,17 +1,14 @@
-import Button from "../components/Button";
-import Input from "../components/Input";
 import Logo from "../components/Logo";
+import LoginForm from "../components/LoginForm";
 import styles from "./login.module.css";
 
-function Login() {
+const Login = () => {
   return (
     <div className={styles.container}>
       <Logo />
-      <Input labelName={"Email"} placeholder={"Enter your email"} type={"email"} />
-      <Input labelName={"Password"} placeholder={"Enter your password"} type={"password"} />
-      <Button />
+      <LoginForm />
     </div>
   );
-}
+};
 
 export default Login;

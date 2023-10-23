@@ -1,0 +1,24 @@
+.button_container {
+  display: block;
+  width: 102%;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  background-color: #5258e4;
+  margin-top: 30px;
+}
+
+.button_container:hover {
+  transition: 0.5s ease-in-out;
+  background-color: rgb(63, 68, 227);
+}
+
+.span_text {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Gill Sans MT", sans-serif;
+}

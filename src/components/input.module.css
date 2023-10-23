@@ -5,6 +5,25 @@
   margin-bottom: 20px;
   width: 100%;
 }
+.extra_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.extra_container label {
+  margin-right: 10px;
+}
+.extra_container a {
+  font-family: "IBM Plex Mono, sans-serif";
+  font-weight: 500;
+  font-size: 14px;
+  color: #999dff;
+  line-height: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+  letter-spacing: 1.5px;
+}
 
 label,
 input {
@@ -20,7 +39,7 @@ input {
   padding: 16px 12px;
   font-size: 16px;
   line-height: 22px;
-  border: 1px solid #d0d0d0b1;
+  border: 1px solid;
   background: none;
   border-radius: 8px;
   width: 100%;

@@ -7,7 +7,7 @@ function Login() {
   return (
     <div className={styles.container}>
       <Logo />
-      <Input labelName={"Email"} placeholder={"Enter your email"} type={"text"} />
+      <Input labelName={"Email"} placeholder={"Enter your email"} type={"email"} />
       <Input labelName={"Password"} placeholder={"Enter your password"} type={"password"} />
       <Button />
     </div>

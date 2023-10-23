@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label,
+input {
+  color: #d0d0d0;
+  font-weight: 400;
+}
+
+label {
+  font-family: "Gill Sans MT", sans-serif;
+}
+input {
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 16px 12px;
+  font-size: 16px;
+  line-height: 22px;
+  border: 1px solid #d0d0d0b1;
+  background: none;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.inputContainer {
+  position: relative;
+  width: 96%;
+}
+
+.iconContainer {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #d0d0d0b1;
+  font-size: 24px;
+}
